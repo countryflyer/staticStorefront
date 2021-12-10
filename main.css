@@ -1,0 +1,10 @@
+body {
+	font-size: 67.5%;
+	font-family: Tahoma, Geneva, sans-serif;
+	background: #c77e6b url(./assets/happyBikers.jpg) no-repeat fixed  top center;
+	padding: 0;
+	margin: 0;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	-o-background-size: 100% 100%;
