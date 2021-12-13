@@ -1,10 +1,235 @@
 body {
 	font-size: 67.5%;
 	font-family: Tahoma, Geneva, sans-serif;
-	background: #c77e6b url(./assets/happyBikers.jpg) no-repeat fixed  top center;
+	background: url(./assets/happyBikers.jpg) no-repeat fixed  top center;
 	padding: 0;
 	margin: 0;
-	-webkit-background-size: 100% 100%;
+	/* -webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	background-size: 100% 100%;
-	-o-background-size: 100% 100%;
+	-o-background-size: 100% 100%; */
+}
+
+nav#utilityMenu {
+	float: right;
+	margin: 0 0 0 0;
+	padding: 0.35em;
+	background-color: rgb(199, 77, 21);
+	background: transparent;
+	/* height: 20em; */
+}
+
+nav#utilityMenu li {
+	padding: 0 0.25em 0 0.2em;
+	vertical-align: middle;
+	display: inline-block;
+}
+h1{
+	background-color: transparent;
+	font-size: 5.5em;
+	text-align: center;
+	color: black;
+	border-style: double;
+	border-color: black;
+	border-radius: .2em;
+	border-width: 10px;
+	margin-right: 700px;
+	margin-left: 0px;
+	margin-top: -40px;
+	width: 50%;
+}
+h2 {
+	background: rgb(199, 77, 21);
+	border-radius: .2em;
+	font-size: 5.5em;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	width: 50%;
+}
+nav#utilityMenu ul li.acctNav a.active {
+	background-color: rgb(143, 142, 142);
+}
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: inline-block;
+	height: 1.3em;
+	padding: 0.5em;
+	margin: -0.4em 0 0 0;
+	font-size: 1.2em;
+}
+nav#utilityMenu {
+	float: right;
+	margin: -1.5em 0 0 0;
+	padding: 0.35em;
+	background-color: rgb(199, 77, 21);
+	height: 3.8em;
+}
+.navButtons {
+	text-align: center;
+}
+.navButtons li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.navButtons li a {
+	color: black;
+	font-size: 2.5em;
+	background-color: rgb(199, 77, 21);
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+	border-radius: .2em;
+}
+div.sidebarWrapper {
+	width: 20%;
+}
+section#sidebar {
+	width: 100%;
+	float: left;
+	position: relative;
+	display: block;
+	background-color: #fff;
+	margin: 1.5em 0 3.0em 1.5em;
+	padding: 1.7em 0.5em 2.0em 1.7em;
+	border-left: rgb(199, 77, 21) solid 10px;
+	border-radius: 0.6em;
+}
+section#sidebar h1 {
+	font-size: medium;
+	border-style:none;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+section#sidebar ol li a{
+	color: rgb(199, 77, 21);
+}
+section.whiteBoard {
+	background-color: rgba(252,251,243,0.7);
+	width: 60%;
+	margin: 0 0  0 3.0em;
+	padding: 1.5em  1.0em 1.5em 1.5em;
+	display: inline-block;
+	border-radius: 2em;
+}
+section div.panel{
+	float: left;
+	position: relative;
+	width: 27%;
+	margin: 0 0.5em 2.0em 0.5em;
+	padding: 1.0em;
+	background-color: #fff;
+	border: #ccc solid 1px;
+	border-radius: 0.6em;
+}
+#panelTitle {
+	text-align: left;
+	font-size: 28px;
+	color: black;
+	font-weight: bold;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	border: black;
+	border-style: double;
+	background-color: white;
+}
+.bikeType {
+	font-size: 18px;
+	color: white;
+	text-align: left;
+}
+section#sidebar2 {
+	width: 60%;
+	float: left;
+	position: relative;
+	display: block;
+	background-color: #fff;
+	margin: 0em 0 3.0em 2.6em;
+	padding: 1.7em 0.5em 2.0em 1.7em;
+	border-left: rgb(199, 77, 21) solid 10px;
+	border-radius: 0.6em;
+}
+section#sidebar2 h1 {
+	font-size: medium;
+	border-style:none;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+section#sidebar2 h1 hr{
+	height: 3px;
+        color: rgb(199, 77, 21);
+		background-color: #ccc;
+        border: none;
+}
+.blog-input {
+	font-size: 18px;
+}
+section#sidebar3 {
+	position: relative;
+	float: left;
+	display: block;
+	width: 96%;
+	margin-left: 15px;
+	background-color: #fff;
+	margin: 1.5em 0 3.0em 1.5em;
+	padding: 1.7em 0.5em 2.0em 1.7em;
+	border-left: rgb(199, 77, 21) solid 10px;
+	border-radius: 0.6em;
+	font-size: 14px;
+	font-weight: bold;
+}
+footer {
+	position: relative;
+	background-color: rgb(199, 77, 21);
+	font-size: 1.2em;
+	color: #fff;
+	width: 100%;
+	text-align: left;
+	height: 20px;
+	padding-top: 0%;
+	padding-bottom: 10;
+	margin-top: 50%;
+
+
+}
+footer ul#footer {
+	/* display: inline-block; */
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
+footer ul li::before {
+	content: " | ";
+	padding-right: 0.7em;
+}
+footer a, footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+button {
+	color: black;
+	background-color: #FFF;
+	display: inline-block;
+	margin: 0 0.75em 0 0;
+	padding: 0.2em 0.5em;
+	border: 2px solid #C64322;
+	border-radius: 2em;
+	/* text-transform: uppercase; */
+}
+button:hover {
+	background-color: #df8014;
+	border: 1px solid #745b2f;
+}
+
+
